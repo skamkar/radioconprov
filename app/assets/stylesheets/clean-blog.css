@@ -231,7 +231,7 @@ hr.small {
 .post-preview > .post-meta {
   color: #808080;
   font-size: 18px;
-  font-style: italic;
+  font-style: normal;
   margin-top: 0;
 }
 .post-preview > .post-meta > a {

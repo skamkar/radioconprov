@@ -2,6 +2,7 @@ Rails.application.routes.draw do
 
   root 'static_pages#home' # shortcut for the above
 
+  get 'index.html', to: 'static_pages#home'
   get 'home.html', to: 'static_pages#home'
   get 'about.html', to: 'static_pages#about'
   get 'contact.html', to: 'static_pages#contact'
